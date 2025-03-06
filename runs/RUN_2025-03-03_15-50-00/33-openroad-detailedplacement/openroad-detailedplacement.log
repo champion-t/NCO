@@ -1,0 +1,41 @@
+Reading OpenROAD database at '/home/thanh/NCO/runs/RUN_2025-03-03_15-50-00/31-openroad-repairdesignpostgpl/counter.odb'…
+Reading library file at '/home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading design constraints file at '/nix/store/ss2cw3sxbrwwx9jl0rrppbw4kgcmgi2n-python3-3.11.9-env/lib/python3.11/site-packages/openlane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 2
+[INFO] Setting input delay to: 2
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL            7988.8 u
+legalized HPWL           8087.5 u
+delta HPWL                    1 %
+
+[INFO DPL-0020] Mirrored 39 instances
+[INFO DPL-0021] HPWL before            8087.5 u
+[INFO DPL-0022] HPWL after             7988.8 u
+[INFO DPL-0023] HPWL delta               -1.2 %
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+mem_i matched with mem_i
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                     1  123515.34
+  Fill cell                               578    2169.58
+  Tap cell                               1501    1878.05
+  Timing Repair Buffer                     20     112.61
+  Inverter                                 25      93.84
+  Sequential cell                          24     611.84
+  Multi-Input combinational cell           15      96.34
+  Total                                  2164  128477.60
+Writing OpenROAD database to '/home/thanh/NCO/runs/RUN_2025-03-03_15-50-00/33-openroad-detailedplacement/counter.odb'…
+Writing netlist to '/home/thanh/NCO/runs/RUN_2025-03-03_15-50-00/33-openroad-detailedplacement/counter.nl.v'…
+Writing powered netlist to '/home/thanh/NCO/runs/RUN_2025-03-03_15-50-00/33-openroad-detailedplacement/counter.pnl.v'…
+Writing layout to '/home/thanh/NCO/runs/RUN_2025-03-03_15-50-00/33-openroad-detailedplacement/counter.def'…
+Writing timing constraints to '/home/thanh/NCO/runs/RUN_2025-03-03_15-50-00/33-openroad-detailedplacement/counter.sdc'…

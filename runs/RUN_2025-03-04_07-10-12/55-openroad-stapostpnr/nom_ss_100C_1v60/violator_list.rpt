@@ -1,0 +1,20 @@
+
+===========================================================================
+Violator List
+============================================================================
+[setup reg-out] _101_/Q -> sine_out[4] : -0.119809
+[setup reg-out] _097_/Q -> sine_out[0] : -0.117796
+[setup reg-out] _098_/Q -> sine_out[1] : -0.115873
+[setup reg-out] _100_/Q -> sine_out[3] : -0.114396
+[setup reg-out] _099_/Q -> sine_out[2] : -0.114329
+[setup reg-out] _087_/Q -> sine_out[14] : -0.113776
+[setup reg-out] _082_/Q -> sine_out[9] : -0.113731
+[setup reg-out] _079_/Q -> sine_out[6] : -0.113141
+[setup reg-out] _083_/Q -> sine_out[10] : -0.111890
+[setup reg-out] _084_/Q -> sine_out[11] : -0.111593
+[setup reg-out] _102_/Q -> sine_out[5] : -0.111184
+[setup reg-out] _086_/Q -> sine_out[13] : -0.109247
+[setup reg-out] _081_/Q -> sine_out[8] : -0.108749
+[setup reg-out] _085_/Q -> sine_out[12] : -0.107492
+[setup reg-out] _088_/Q -> sine_out[15] : -0.107144
+[setup reg-out] _080_/Q -> sine_out[7] : -0.105909

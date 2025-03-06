@@ -1,0 +1,43 @@
+95. Printing statistics.
+
+=== counter ===
+
+   Number of wires:               4660
+   Number of wire bits:           4817
+   Number of public wires:          17
+   Number of public wire bits:     151
+   Number of ports:                 11
+   Number of port bits:             76
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               4727
+     $_ANDNOT_                    1689
+     $_AND_                         29
+     $_MUX_                        718
+     $_NAND_                        50
+     $_NOR_                        319
+     $_NOT_                        287
+     $_ORNOT_                      303
+     $_OR_                         443
+     $_XNOR_                       132
+     $_XOR_                        696
+     ram256x16                       2
+     sky130_fd_sc_hd__dfrtp_2       25
+     sky130_fd_sc_hd__dfxtp_2       34
+
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type \ram256x16 is unknown!
+
+   Chip area for module '\counter': 1380.073600
+     of which used for sequential elements: 1380.073600 (100.00%)
+

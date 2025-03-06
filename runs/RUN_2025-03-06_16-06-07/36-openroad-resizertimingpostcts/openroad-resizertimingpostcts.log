@@ -1,0 +1,73 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib'…
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib'…
+[WARNING STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib'…
+[WARNING STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Reading OpenROAD database at '/home/thanh/NCO/runs/RUN_2025-03-06_16-06-07/34-openroad-cts/counter.odb'…
+Reading design constraints file at '/home/thanh/NCO/counter.sdc'…
+[INFO] Setting RC values…
+[INFO RSZ-0094] Found 9 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 9 out of 9 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |    WNS   |   TNS      |  Viol  | Worst
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |            | Endpts | Endpt
+---------------------------------------------------------------------------------------------------
+        0 |       0 |       0 |        0 |      0 |     0 |   -0.098 |       -0.7 |      9 | _600_/D
+        4 |       0 |       0 |        4 |      0 |     1 |    0.042 |        0.0 |      8 | _600_/D
+        5 |       0 |       0 |        4 |      0 |     1 |    0.042 |        0.0 |      7 | _600_/D
+        6 |       0 |       0 |        4 |      0 |     1 |    0.042 |        0.0 |      6 | _600_/D
+        7 |       0 |       0 |        4 |      0 |     1 |    0.042 |        0.0 |      5 | _600_/D
+        8 |       0 |       0 |        4 |      0 |     1 |    0.042 |        0.0 |      4 | _600_/D
+        9 |       0 |       0 |        4 |      0 |     1 |    0.042 |        0.0 |      3 | _600_/D
+       10 |       0 |       0 |        4 |      0 |     1 |    0.042 |        0.0 |      3 | _600_/D
+       10 |       0 |       0 |        4 |      0 |     1 |    0.042 |        0.0 |      2 | _600_/D
+       11 |       0 |       0 |        4 |      0 |     1 |    0.042 |        0.0 |      1 | _600_/D
+       12 |       0 |       0 |        4 |      0 |     1 |    0.042 |        0.0 |      0 | _600_/D
+    final |       0 |       0 |        4 |      0 |     1 |    0.042 |        0.0 |      1 | _600_/D
+---------------------------------------------------------------------------------------------------
+[INFO RSZ-0040] Inserted 3 buffers.
+[INFO RSZ-0043] Swapped pins on 1 instances.
+[WARNING RSZ-0062] Unable to repair all setup violations.
+[INFO RSZ-0033] No hold violations found.
+Placement Analysis
+---------------------------------
+total displacement         18.1 u
+average displacement        0.0 u
+max displacement            4.5 u
+original HPWL           30420.4 u
+legalized HPWL          31012.4 u
+delta HPWL                    2 %
+
+[INFO DPL-0020] Mirrored 232 instances
+[INFO DPL-0021] HPWL before           31012.4 u
+[INFO DPL-0022] HPWL after            30412.1 u
+[INFO DPL-0023] HPWL delta               -1.9 %
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+mem_i.* matched with mem_i1_115
+mem_i.* matched with mem_i0
+mem_i.* matched with mem_i1
+mem_i.* matched with mem_i0_114
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                     2  247030.69
+  Fill cell                               962    3610.96
+  Tap cell                               1530    1914.34
+  Clock buffer                             15     301.54
+  Timing Repair Buffer                    116     593.07
+  Inverter                                 39     151.40
+  Clock inverter                            2      16.27
+  Sequential cell                          59    1338.78
+  Multi-Input combinational cell          254    1936.86
+  Total                                  2979  256893.90
+Writing OpenROAD database to '/home/thanh/NCO/runs/RUN_2025-03-06_16-06-07/36-openroad-resizertimingpostcts/counter.odb'…
+Writing netlist to '/home/thanh/NCO/runs/RUN_2025-03-06_16-06-07/36-openroad-resizertimingpostcts/counter.nl.v'…
+Writing powered netlist to '/home/thanh/NCO/runs/RUN_2025-03-06_16-06-07/36-openroad-resizertimingpostcts/counter.pnl.v'…
+Writing layout to '/home/thanh/NCO/runs/RUN_2025-03-06_16-06-07/36-openroad-resizertimingpostcts/counter.def'…
+Writing timing constraints to '/home/thanh/NCO/runs/RUN_2025-03-06_16-06-07/36-openroad-resizertimingpostcts/counter.sdc'…

@@ -1,0 +1,56 @@
+%Warning-PINMISSING: /home/thanh/NCO/counter.v:18:12: Cell has missing pin: 'vccd1'
+   18 |  ram256x16 mem_i (
+      |            ^~~~~
+                     ... For warning description see https://verilator.org/warn/PINMISSING?v=5.018
+                     ... Use "/* verilator lint_off PINMISSING */" and lint_on around source to disable this message.
+%Warning-PINMISSING: /home/thanh/NCO/counter.v:18:12: Cell has missing pin: 'vssd1'
+   18 |  ram256x16 mem_i (
+      |            ^~~~~
+%Warning-UNUSEDSIGNAL: /home/thanh/NCO/ram256x16/ram256x16.v:28:10: Signal is not used: 'clk0'
+                                                                  : ... note: In instance 'counter.mem_i'
+   28 |   input  clk0;  
+      |          ^~~~
+%Warning-UNUSEDSIGNAL: /home/thanh/NCO/ram256x16/ram256x16.v:29:11: Signal is not used: 'csb0'
+                                                                  : ... note: In instance 'counter.mem_i'
+   29 |   input   csb0;  
+      |           ^~~~
+%Warning-UNUSEDSIGNAL: /home/thanh/NCO/ram256x16/ram256x16.v:30:27: Signal is not used: 'addr0'
+                                                                  : ... note: In instance 'counter.mem_i'
+   30 |   input [ADDR_WIDTH-1:0]  addr0;
+      |                           ^~~~~
+%Warning-UNUSEDSIGNAL: /home/thanh/NCO/ram256x16/ram256x16.v:31:27: Signal is not used: 'din0'
+                                                                  : ... note: In instance 'counter.mem_i'
+   31 |   input [DATA_WIDTH-1:0]  din0;
+      |                           ^~~~
+%Warning-UNUSEDSIGNAL: /home/thanh/NCO/ram256x16/ram256x16.v:32:10: Signal is not used: 'clk1'
+                                                                  : ... note: In instance 'counter.mem_i'
+   32 |   input  clk1;  
+      |          ^~~~
+%Warning-UNUSEDSIGNAL: /home/thanh/NCO/ram256x16/ram256x16.v:33:11: Signal is not used: 'csb1'
+                                                                  : ... note: In instance 'counter.mem_i'
+   33 |   input   csb1;  
+      |           ^~~~
+%Warning-UNUSEDSIGNAL: /home/thanh/NCO/ram256x16/ram256x16.v:34:27: Signal is not used: 'addr1'
+                                                                  : ... note: In instance 'counter.mem_i'
+   34 |   input [ADDR_WIDTH-1:0]  addr1;
+      |                           ^~~~~
+%Warning-UNDRIVEN: /home/thanh/NCO/ram256x16/ram256x16.v:35:27: Signal is not driven: 'dout1'
+                                                              : ... note: In instance 'counter.mem_i'
+   35 |   output [DATA_WIDTH-1:0] dout1;
+      |                           ^~~~~
+%Warning-UNUSEDPARAM: /home/thanh/NCO/ram256x16/ram256x16.v:18:13: Parameter is not used: 'RAM_DEPTH'
+                                                                 : ... note: In instance 'counter.mem_i'
+   18 |   parameter RAM_DEPTH = 1 << ADDR_WIDTH;
+      |             ^~~~~~~~~
+%Warning-UNUSEDPARAM: /home/thanh/NCO/ram256x16/ram256x16.v:20:13: Parameter is not used: 'DELAY'
+                                                                 : ... note: In instance 'counter.mem_i'
+   20 |   parameter DELAY = 3 ;
+      |             ^~~~~
+%Warning-UNUSEDPARAM: /home/thanh/NCO/ram256x16/ram256x16.v:21:13: Parameter is not used: 'VERBOSE'
+                                                                 : ... note: In instance 'counter.mem_i'
+   21 |   parameter VERBOSE = 1 ;  
+      |             ^~~~~~~
+%Warning-UNUSEDPARAM: /home/thanh/NCO/ram256x16/ram256x16.v:22:13: Parameter is not used: 'T_HOLD'
+                                                                 : ... note: In instance 'counter.mem_i'
+   22 |   parameter T_HOLD = 1 ;  
+      |             ^~~~~~

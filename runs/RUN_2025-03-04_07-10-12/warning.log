@@ -1,0 +1,987 @@
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+[ORD-2011] LEF master ram256x16 has no liberty cell.
+Cell 'ram256x16' has (36) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'ram256x16' has (16) output pin(s) without antenna diffusion information. They might not be driven.
+[GRT-0097] No global routing found for nets.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+[GRT-0097] No global routing found for nets.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+[GRT-0097] No global routing found for nets.
+'GPL_CELL_PADDING' is set to 0. This step may cause overlap failures.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0418] Term mem_i/addr0[3] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[4] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[7] has no pins on routing grid
+[DRT-0418] Term mem_i/clk1 has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[0] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[1] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[3] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[5] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[7] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[8] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[10] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[12] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[14] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[15] has no pins on routing grid
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+'VSRC_LOC_FILES' was not given a value, which may make the results of IR drop analysis inaccurate. If you are not integrating a top-level chip for manufacture, you may ignore this warning, otherwise, see the documentation for 'VSRC_LOC_FILES'.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5857, instance ANTENNA_mem_i_addr0\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5862, net ANTENNA_mem_i_addr0\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5869, net ANTENNA_mem_i_addr0\[0\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5875, instance ANTENNA_mem_i_addr0\[1\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5880, net ANTENNA_mem_i_addr0\[1\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5886, net ANTENNA_mem_i_addr0\[1\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5893, instance ANTENNA_mem_i_addr0\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5898, net ANTENNA_mem_i_addr0\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5903, net ANTENNA_mem_i_addr0\[2\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5910, instance ANTENNA_mem_i_addr0\[3\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5915, net ANTENNA_mem_i_addr0\[3\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5921, net ANTENNA_mem_i_addr0\[3\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5928, instance ANTENNA_mem_i_addr0\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5933, net ANTENNA_mem_i_addr0\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5939, net ANTENNA_mem_i_addr0\[4\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5946, instance ANTENNA_mem_i_addr0\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5951, net ANTENNA_mem_i_addr0\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5953, net ANTENNA_mem_i_addr0\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5959, net ANTENNA_mem_i_addr0\[5\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5966, instance ANTENNA_mem_i_addr0\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5971, net ANTENNA_mem_i_addr0\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5973, net ANTENNA_mem_i_addr0\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5978, net ANTENNA_mem_i_addr0\[6\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5985, instance ANTENNA_mem_i_addr0\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5990, net ANTENNA_mem_i_addr0\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5992, net ANTENNA_mem_i_addr0\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 5995, net ANTENNA_mem_i_addr0\[7\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6076, instance ANTENNA_mem_i_din0\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6081, net ANTENNA_mem_i_din0\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6087, net ANTENNA_mem_i_din0\[0\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6094, instance ANTENNA_mem_i_din0\[10\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6099, net ANTENNA_mem_i_din0\[10\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6105, net ANTENNA_mem_i_din0\[10\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6112, instance ANTENNA_mem_i_din0\[11\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6117, net ANTENNA_mem_i_din0\[11\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6123, net ANTENNA_mem_i_din0\[11\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6130, instance ANTENNA_mem_i_din0\[12\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6135, net ANTENNA_mem_i_din0\[12\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6141, net ANTENNA_mem_i_din0\[12\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6148, instance ANTENNA_mem_i_din0\[13\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6153, net ANTENNA_mem_i_din0\[13\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6160, net ANTENNA_mem_i_din0\[13\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6166, instance ANTENNA_mem_i_din0\[14\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6171, net ANTENNA_mem_i_din0\[14\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6180, net ANTENNA_mem_i_din0\[14\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6186, instance ANTENNA_mem_i_din0\[15\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6191, net ANTENNA_mem_i_din0\[15\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6196, net ANTENNA_mem_i_din0\[15\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6203, instance ANTENNA_mem_i_din0\[1\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6208, net ANTENNA_mem_i_din0\[1\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6214, net ANTENNA_mem_i_din0\[1\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6221, instance ANTENNA_mem_i_din0\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6226, net ANTENNA_mem_i_din0\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6233, net ANTENNA_mem_i_din0\[2\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6240, instance ANTENNA_mem_i_din0\[3\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6245, net ANTENNA_mem_i_din0\[3\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6252, net ANTENNA_mem_i_din0\[3\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6259, instance ANTENNA_mem_i_din0\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6264, net ANTENNA_mem_i_din0\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6270, net ANTENNA_mem_i_din0\[4\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6277, instance ANTENNA_mem_i_din0\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6282, net ANTENNA_mem_i_din0\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6288, net ANTENNA_mem_i_din0\[5\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6295, instance ANTENNA_mem_i_din0\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6300, net ANTENNA_mem_i_din0\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6306, net ANTENNA_mem_i_din0\[6\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6313, instance ANTENNA_mem_i_din0\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6318, net ANTENNA_mem_i_din0\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6324, net ANTENNA_mem_i_din0\[7\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6331, instance ANTENNA_mem_i_din0\[8\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6336, net ANTENNA_mem_i_din0\[8\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6343, net ANTENNA_mem_i_din0\[8\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6349, instance ANTENNA_mem_i_din0\[9\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6354, net ANTENNA_mem_i_din0\[9\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 6363, net ANTENNA_mem_i_din0\[9\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 7533, net ANTENNA_mem_i_addr0\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 7534, net ANTENNA_mem_i_addr0\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 7535, net ANTENNA_mem_i_addr0\[7\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 8667, instance ANTENNA_mem_i_addr1\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 8681, net ANTENNA_mem_i_addr1\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 8753, net ANTENNA_mem_i_addr1\[0\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 8759, instance ANTENNA_mem_i_addr1\[1\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 8771, net ANTENNA_mem_i_addr1\[1\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 8833, net ANTENNA_mem_i_addr1\[1\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 8844, instance ANTENNA_mem_i_addr1\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 8854, net ANTENNA_mem_i_addr1\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 8863, net ANTENNA_mem_i_addr1\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 8900, net ANTENNA_mem_i_addr1\[2\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9033, instance ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9043, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9056, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9056, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9057, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9057, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9058, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9069, net ANTENNA_mem_i_addr1\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9100, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9114, instance ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9124, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9136, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9136, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9137, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9142, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9142, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9143, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9171, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9183, instance ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9191, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9199, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9199, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9200, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9200, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9205, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/54-openroad-rcx/nom/counter.nom.spef line 9218, net ANTENNA_mem_i_addr1\[7\] not found.
+Setup violations found in the following corners:
+* max_ss_100C_1v60
+* min_ss_100C_1v60
+* nom_ss_100C_1v60
+klayout__drc_error__count not reported. KLayout.DRC may have been skipped.
+magic__drc_error__count not reported. Magic.DRC may have been skipped.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+[ORD-2011] LEF master ram256x16 has no liberty cell.
+Cell 'ram256x16' has (36) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'ram256x16' has (16) output pin(s) without antenna diffusion information. They might not be driven.
+[GRT-0097] No global routing found for nets.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+[GRT-0097] No global routing found for nets.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+[GRT-0097] No global routing found for nets.
+'GPL_CELL_PADDING' is set to 0. This step may cause overlap failures.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0418] Term mem_i/addr0[3] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[4] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[7] has no pins on routing grid
+[DRT-0418] Term mem_i/clk1 has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[0] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[1] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[3] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[5] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[7] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[8] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[10] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[12] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[14] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[15] has no pins on routing grid
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+[ORD-2011] LEF master ram256x16 has no liberty cell.
+Cell 'ram256x16' has (36) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'ram256x16' has (16) output pin(s) without antenna diffusion information. They might not be driven.
+[GRT-0097] No global routing found for nets.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+[GRT-0097] No global routing found for nets.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+[GRT-0097] No global routing found for nets.
+'GPL_CELL_PADDING' is set to 0. This step may cause overlap failures.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0418] Term mem_i/addr0[3] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[4] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[7] has no pins on routing grid
+[DRT-0418] Term mem_i/clk1 has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[0] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[1] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[3] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[5] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[7] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[8] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[10] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[12] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[14] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[15] has no pins on routing grid
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+[ORD-2011] LEF master ram256x16 has no liberty cell.
+Cell 'ram256x16' has (36) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'ram256x16' has (16) output pin(s) without antenna diffusion information. They might not be driven.
+[GRT-0097] No global routing found for nets.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+[GRT-0097] No global routing found for nets.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+[GRT-0097] No global routing found for nets.
+'GPL_CELL_PADDING' is set to 0. This step may cause overlap failures.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0418] Term mem_i/addr0[3] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[4] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[7] has no pins on routing grid
+[DRT-0418] Term mem_i/clk1 has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[0] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[1] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[3] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[5] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[7] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[8] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[10] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[12] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[14] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[15] has no pins on routing grid
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ff_n40C_1v95. The module will be black-boxed.
+'VSRC_LOC_FILES' was not given a value, which may make the results of IR drop analysis inaccurate. If you are not integrating a top-level chip for manufacture, you may ignore this warning, otherwise, see the documentation for 'VSRC_LOC_FILES'.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5856, instance ANTENNA_mem_i_addr0\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5861, net ANTENNA_mem_i_addr0\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5868, net ANTENNA_mem_i_addr0\[0\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5874, instance ANTENNA_mem_i_addr0\[1\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5879, net ANTENNA_mem_i_addr0\[1\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5885, net ANTENNA_mem_i_addr0\[1\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5892, instance ANTENNA_mem_i_addr0\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5897, net ANTENNA_mem_i_addr0\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5902, net ANTENNA_mem_i_addr0\[2\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5909, instance ANTENNA_mem_i_addr0\[3\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5914, net ANTENNA_mem_i_addr0\[3\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5920, net ANTENNA_mem_i_addr0\[3\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5927, instance ANTENNA_mem_i_addr0\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5932, net ANTENNA_mem_i_addr0\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5938, net ANTENNA_mem_i_addr0\[4\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5945, instance ANTENNA_mem_i_addr0\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5950, net ANTENNA_mem_i_addr0\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5952, net ANTENNA_mem_i_addr0\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5958, net ANTENNA_mem_i_addr0\[5\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5965, instance ANTENNA_mem_i_addr0\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5970, net ANTENNA_mem_i_addr0\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5972, net ANTENNA_mem_i_addr0\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5977, net ANTENNA_mem_i_addr0\[6\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5984, instance ANTENNA_mem_i_addr0\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5989, net ANTENNA_mem_i_addr0\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5991, net ANTENNA_mem_i_addr0\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 5994, net ANTENNA_mem_i_addr0\[7\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6075, instance ANTENNA_mem_i_din0\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6080, net ANTENNA_mem_i_din0\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6086, net ANTENNA_mem_i_din0\[0\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6093, instance ANTENNA_mem_i_din0\[10\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6098, net ANTENNA_mem_i_din0\[10\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6104, net ANTENNA_mem_i_din0\[10\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6111, instance ANTENNA_mem_i_din0\[11\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6116, net ANTENNA_mem_i_din0\[11\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6122, net ANTENNA_mem_i_din0\[11\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6129, instance ANTENNA_mem_i_din0\[12\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6134, net ANTENNA_mem_i_din0\[12\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6140, net ANTENNA_mem_i_din0\[12\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6147, instance ANTENNA_mem_i_din0\[13\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6152, net ANTENNA_mem_i_din0\[13\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6159, net ANTENNA_mem_i_din0\[13\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6165, instance ANTENNA_mem_i_din0\[14\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6170, net ANTENNA_mem_i_din0\[14\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6179, net ANTENNA_mem_i_din0\[14\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6185, instance ANTENNA_mem_i_din0\[15\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6190, net ANTENNA_mem_i_din0\[15\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6195, net ANTENNA_mem_i_din0\[15\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6202, instance ANTENNA_mem_i_din0\[1\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6207, net ANTENNA_mem_i_din0\[1\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6213, net ANTENNA_mem_i_din0\[1\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6220, instance ANTENNA_mem_i_din0\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6225, net ANTENNA_mem_i_din0\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6232, net ANTENNA_mem_i_din0\[2\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6239, instance ANTENNA_mem_i_din0\[3\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6244, net ANTENNA_mem_i_din0\[3\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6251, net ANTENNA_mem_i_din0\[3\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6258, instance ANTENNA_mem_i_din0\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6263, net ANTENNA_mem_i_din0\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6269, net ANTENNA_mem_i_din0\[4\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6276, instance ANTENNA_mem_i_din0\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6281, net ANTENNA_mem_i_din0\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6287, net ANTENNA_mem_i_din0\[5\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6294, instance ANTENNA_mem_i_din0\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6299, net ANTENNA_mem_i_din0\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6305, net ANTENNA_mem_i_din0\[6\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6312, instance ANTENNA_mem_i_din0\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6317, net ANTENNA_mem_i_din0\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6323, net ANTENNA_mem_i_din0\[7\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6330, instance ANTENNA_mem_i_din0\[8\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6335, net ANTENNA_mem_i_din0\[8\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6342, net ANTENNA_mem_i_din0\[8\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6348, instance ANTENNA_mem_i_din0\[9\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6353, net ANTENNA_mem_i_din0\[9\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 6362, net ANTENNA_mem_i_din0\[9\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 7535, net ANTENNA_mem_i_addr0\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 7536, net ANTENNA_mem_i_addr0\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 7537, net ANTENNA_mem_i_addr0\[7\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 8676, instance ANTENNA_mem_i_addr1\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 8690, net ANTENNA_mem_i_addr1\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 8762, net ANTENNA_mem_i_addr1\[0\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 8768, instance ANTENNA_mem_i_addr1\[1\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 8780, net ANTENNA_mem_i_addr1\[1\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 8842, net ANTENNA_mem_i_addr1\[1\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 8853, instance ANTENNA_mem_i_addr1\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 8863, net ANTENNA_mem_i_addr1\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 8872, net ANTENNA_mem_i_addr1\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 8909, net ANTENNA_mem_i_addr1\[2\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9042, instance ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9052, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9065, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9065, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9066, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9066, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9067, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9078, net ANTENNA_mem_i_addr1\[2\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9109, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9123, instance ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9133, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9145, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9145, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9146, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9151, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9151, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9152, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9180, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9192, instance ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9200, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9208, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9208, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9209, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9209, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9214, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/235-openroad-rcx/nom/counter.nom.spef line 9227, net ANTENNA_mem_i_addr1\[7\] not found.
+klayout__drc_error__count not reported. KLayout.DRC may have been skipped.
+magic__drc_error__count not reported. Magic.DRC may have been skipped.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nin_ss_100C_1v60. The module will be black-boxed.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+[ORD-2011] LEF master ram256x16 has no liberty cell.
+Cell 'ram256x16' has (36) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'ram256x16' has (16) output pin(s) without antenna diffusion information. They might not be driven.
+[GRT-0097] No global routing found for nets.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+[GRT-0097] No global routing found for nets.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+[GRT-0097] No global routing found for nets.
+'GPL_CELL_PADDING' is set to 0. This step may cause overlap failures.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0418] Term mem_i/addr0[3] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[4] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[7] has no pins on routing grid
+[DRT-0418] Term mem_i/clk1 has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[0] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[1] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[3] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[5] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[7] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[8] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[10] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[12] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[14] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[15] has no pins on routing grid
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Cell 'ram256x16' has (36) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'ram256x16' has (16) output pin(s) without antenna diffusion information. They might not be driven.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Cell 'ram256x16' has (36) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'ram256x16' has (16) output pin(s) without antenna diffusion information. They might not be driven.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Cell 'ram256x16' has (36) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'ram256x16' has (16) output pin(s) without antenna diffusion information. They might not be driven.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+'GPL_CELL_PADDING' is set to 0. This step may cause overlap failures.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0418] Term mem_i/addr0[3] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[4] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[7] has no pins on routing grid
+[DRT-0418] Term mem_i/clk1 has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[0] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[1] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[3] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[5] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[7] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[8] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[10] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[12] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[14] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[15] has no pins on routing grid
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+No libs found for macro ram256x16 at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+[ORD-2011] LEF master ram256x16 has no liberty cell.
+Cell 'ram256x16' has (36) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'ram256x16' has (16) output pin(s) without antenna diffusion information. They might not be driven.
+[GRT-0097] No global routing found for nets.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+[GRT-0097] No global routing found for nets.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+[GRT-0097] No global routing found for nets.
+'GPL_CELL_PADDING' is set to 0. This step may cause overlap failures.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0418] Term mem_i/addr0[3] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[4] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[7] has no pins on routing grid
+[DRT-0418] Term mem_i/clk1 has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[0] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[1] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[3] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[5] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[7] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[8] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[10] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[12] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[14] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[15] has no pins on routing grid
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+No libs found for macro ram256x16 at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro ram256x16 at corner max_ss_100C_1v60. The module will be black-boxed.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Cell 'ram256x16' has (36) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'ram256x16' has (16) output pin(s) without antenna diffusion information. They might not be driven.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+'GPL_CELL_PADDING' is set to 0. This step may cause overlap failures.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0418] Term mem_i/addr0[3] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[4] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[7] has no pins on routing grid
+[DRT-0418] Term mem_i/clk1 has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[0] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[1] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[3] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[5] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[7] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[8] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[10] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[12] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[14] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[15] has no pins on routing grid
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[ODB-0205] The LEF UNITS DATABASE MICRON convert factor (2000) is greater than the database units per micron (1000) of the current technology.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Cell 'ram256x16' has (36) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'ram256x16' has (16) output pin(s) without antenna diffusion information. They might not be driven.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+'GPL_CELL_PADDING' is set to 0. This step may cause overlap failures.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0418] Term mem_i/addr0[3] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[4] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[7] has no pins on routing grid
+[DRT-0418] Term mem_i/clk1 has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[0] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[1] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[3] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[5] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[7] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[8] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[10] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[12] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[14] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[15] has no pins on routing grid
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Cell 'ram256x16' has (36) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'ram256x16' has (16) output pin(s) without antenna diffusion information. They might not be driven.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+'GPL_CELL_PADDING' is set to 0. This step may cause overlap failures.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0418] Term mem_i/addr0[3] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[4] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[7] has no pins on routing grid
+[DRT-0418] Term mem_i/clk1 has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[0] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[1] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[3] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[5] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[7] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[8] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[10] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[12] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[14] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[15] has no pins on routing grid
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+14 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Cell 'ram256x16' has (36) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'ram256x16' has (16) output pin(s) without antenna diffusion information. They might not be driven.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+'GPL_CELL_PADDING' is set to 0. This step may cause overlap failures.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0418] Term mem_i/addr0[3] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[4] has no pins on routing grid
+[DRT-0418] Term mem_i/addr0[7] has no pins on routing grid
+[DRT-0418] Term mem_i/clk1 has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[0] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[1] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[3] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[5] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[7] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[8] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[10] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[12] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[14] has no pins on routing grid
+[DRT-0418] Term mem_i/dout1[15] has no pins on routing grid
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+[STA-1140] /home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib line 1, library ram256x16_TT_1p8V_25C_lib already exists.

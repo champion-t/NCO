@@ -1,0 +1,29 @@
+
+===========================================================================
+Violator List
+============================================================================
+[setup reg-reg] _600_/Q -> _602_/D : -0.230382
+[setup reg-reg] _600_/Q -> _607_/D : -0.228436
+[setup reg-reg] _600_/Q -> _600_/D : -0.220771
+[setup reg-reg] _600_/Q -> _606_/D : -0.212730
+[setup reg-reg] _600_/Q -> _605_/D : -0.211246
+[setup reg-reg] _600_/Q -> _603_/D : -0.209749
+[setup reg-reg] _600_/Q -> _601_/D : -0.205370
+[setup reg-reg] _600_/Q -> _604_/D : -0.198274
+[setup reg-reg] _600_/Q -> _608_/D : -0.195074
+[setup reg-out] _594_/Q -> sine_out[10] : -0.149915
+[setup reg-out] _592_/Q -> sine_out[8] : -0.148324
+[setup reg-out] _593_/Q -> sine_out[9] : -0.140119
+[setup reg-out] _587_/Q -> sine_out[3] : -0.139827
+[setup reg-out] _591_/Q -> sine_out[7] : -0.130245
+[setup reg-out] _584_/Q -> sine_out[0] : -0.107278
+[setup reg-out] _590_/Q -> sine_out[6] : -0.103711
+[setup reg-out] _599_/Q -> sine_out[15] : -0.100308
+[setup reg-out] _597_/Q -> sine_out[13] : -0.078152
+[setup reg-out] _589_/Q -> sine_out[5] : -0.077842
+[setup reg-out] _586_/Q -> sine_out[2] : -0.072102
+[setup reg-out] _588_/Q -> sine_out[4] : -0.064984
+[setup reg-out] _585_/Q -> sine_out[1] : -0.052536
+[setup reg-out] _595_/Q -> sine_out[11] : -0.051292
+[setup reg-out] _596_/Q -> sine_out[12] : -0.047715
+[setup reg-out] _598_/Q -> sine_out[14] : -0.047289

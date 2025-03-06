@@ -1,0 +1,331 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_ss_100C_1v60 Corner ===================================
+
+Startpoint: rst (input port clocked by clk)
+Endpoint: _134_ (recovery check against rising-edge clock clk)
+Path Group: asynchronous
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock network delay (propagated)
+                                  2.500000    2.500000 v input external delay
+     2    0.003807    0.022374    0.012403    2.512403 v rst (in)
+                                                         rst (net)
+                      0.022374    0.000000    2.512403 v input51/A (sky130_fd_sc_hd__clkbuf_1)
+     3    0.016269    0.191568    0.249692    2.762095 v input51/X (sky130_fd_sc_hd__clkbuf_1)
+                                                         net51 (net)
+                      0.191573    0.001231    2.763326 v fanout109/A (sky130_fd_sc_hd__clkbuf_4)
+    15    0.059664    0.219653    0.443516    3.206842 v fanout109/X (sky130_fd_sc_hd__clkbuf_4)
+                                                         net109 (net)
+                      0.219654    0.001039    3.207881 v fanout108/A (sky130_fd_sc_hd__buf_4)
+    21    0.076815    0.188326    0.446534    3.654415 v fanout108/X (sky130_fd_sc_hd__buf_4)
+                                                         net108 (net)
+                      0.188546    0.005751    3.660166 v fanout107/A (sky130_fd_sc_hd__buf_4)
+    10    0.056906    0.147415    0.398211    4.058377 v fanout107/X (sky130_fd_sc_hd__buf_4)
+                                                         net107 (net)
+                      0.147416    0.000760    4.059137 v _109_/A (sky130_fd_sc_hd__inv_2)
+     1    0.004966    0.062471    0.109499    4.168636 ^ _109_/Y (sky130_fd_sc_hd__inv_2)
+                                                         _039_ (net)
+                      0.062471    0.000126    4.168761 ^ _134_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+                                              4.168761   data arrival time
+
+                                  5.000000    5.000000   clock clk (rise edge)
+                                  0.000000    5.000000   clock source latency
+     2    0.075875    0.547287    0.392506    5.392506 ^ clk (in)
+                                                         clk (net)
+                      0.549319    0.000000    5.392506 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     9    0.077093    0.148601    0.489234    5.881740 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_0_clk (net)
+                      0.150779    0.013146    5.894886 ^ clkbuf_2_2_0_clk/A (sky130_fd_sc_hd__clkbuf_8)
+    17    0.065322    0.191040    0.359377    6.254263 ^ clkbuf_2_2_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_2_2_0_clk (net)
+                      0.191333    0.004893    6.259156 ^ _134_/CLK (sky130_fd_sc_hd__dfrtp_4)
+                                 -0.250000    6.009156   clock uncertainty
+                                  0.000000    6.009156   clock reconvergence pessimism
+                                  0.487822    6.496978   library recovery time
+                                              6.496978   data required time
+---------------------------------------------------------------------------------------------
+                                              6.496978   data required time
+                                             -4.168761   data arrival time
+---------------------------------------------------------------------------------------------
+                                              2.328216   slack (MET)
+
+
+Startpoint: _125_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: sine_out[13] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock source latency
+     2    0.075875    0.547287    0.392505    0.392505 ^ clk (in)
+                                                         clk (net)
+                      0.549319    0.000000    0.392505 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     9    0.077093    0.148601    0.489234    0.881739 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_0_clk (net)
+                      0.150796    0.013205    0.894945 ^ clkbuf_2_3_0_clk/A (sky130_fd_sc_hd__clkbuf_8)
+    21    0.165318    0.443168    0.515143    1.410087 ^ clkbuf_2_3_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_2_3_0_clk (net)
+                      0.445799    0.028284    1.438371 ^ _125_/CLK (sky130_fd_sc_hd__dfrtp_1)
+     3    0.023287    0.247009    1.064980    2.503351 v _125_/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                         net56 (net)
+                      0.247031    0.002479    2.505830 v output56/A (sky130_fd_sc_hd__clkbuf_4)
+     1    0.034934    0.141434    0.410101    2.915931 v output56/X (sky130_fd_sc_hd__clkbuf_4)
+                                                         sine_out[13] (net)
+                      0.141436    0.000839    2.916769 v sine_out[13] (out)
+                                              2.916769   data arrival time
+
+                                  5.000000    5.000000   clock clk (rise edge)
+                                  0.000000    5.000000   clock network delay (propagated)
+                                 -0.250000    4.750000   clock uncertainty
+                                  0.000000    4.750000   clock reconvergence pessimism
+                                 -2.250000    2.500000   output external delay
+                                              2.500000   data required time
+---------------------------------------------------------------------------------------------
+                                              2.500000   data required time
+                                             -2.916769   data arrival time
+---------------------------------------------------------------------------------------------
+                                             -0.416769   slack (VIOLATED)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_ss_100C_1v60 Corner ===================================
+
+Startpoint: _125_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: sine_out[13] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock source latency
+     2    0.075875    0.547287    0.392505    0.392505 ^ clk (in)
+                                                         clk (net)
+                      0.549319    0.000000    0.392505 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     9    0.077093    0.148601    0.489234    0.881739 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_0_clk (net)
+                      0.150796    0.013205    0.894945 ^ clkbuf_2_3_0_clk/A (sky130_fd_sc_hd__clkbuf_8)
+    21    0.165318    0.443168    0.515143    1.410087 ^ clkbuf_2_3_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_2_3_0_clk (net)
+                      0.445799    0.028284    1.438371 ^ _125_/CLK (sky130_fd_sc_hd__dfrtp_1)
+     3    0.023287    0.247009    1.064980    2.503351 v _125_/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                         net56 (net)
+                      0.247031    0.002479    2.505830 v output56/A (sky130_fd_sc_hd__clkbuf_4)
+     1    0.034934    0.141434    0.410101    2.915931 v output56/X (sky130_fd_sc_hd__clkbuf_4)
+                                                         sine_out[13] (net)
+                      0.141436    0.000839    2.916769 v sine_out[13] (out)
+                                              2.916769   data arrival time
+
+                                  5.000000    5.000000   clock clk (rise edge)
+                                  0.000000    5.000000   clock network delay (propagated)
+                                 -0.250000    4.750000   clock uncertainty
+                                  0.000000    4.750000   clock reconvergence pessimism
+                                 -2.250000    2.500000   output external delay
+                                              2.500000   data required time
+---------------------------------------------------------------------------------------------
+                                              2.500000   data required time
+                                             -2.916769   data arrival time
+---------------------------------------------------------------------------------------------
+                                             -0.416769   slack (VIOLATED)
+
+
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_ss_100C_1v60 Corner ===================================
+
+max slew
+
+Pin                                        Limit        Slew       Slack
+------------------------------------------------------------------------
+mem_i1/addr1[6]                         0.500000    0.845864   -0.345864 (VIOLATED)
+mem_i0/addr1[6]                         0.500000    0.843716   -0.343716 (VIOLATED)
+mem_i1/addr1[3]                         0.500000    0.833343   -0.333343 (VIOLATED)
+mem_i0/addr1[3]                         0.500000    0.826243   -0.326243 (VIOLATED)
+mem_i1/addr1[7]                         0.500000    0.754613   -0.254613 (VIOLATED)
+mem_i0/addr1[7]                         0.500000    0.753072   -0.253072 (VIOLATED)
+mem_i1/addr1[4]                         0.500000    0.611389   -0.111389 (VIOLATED)
+mem_i0/addr0[5]                         0.500000    0.599865   -0.099865 (VIOLATED)
+mem_i1/addr1[0]                         0.500000    0.599857   -0.099857 (VIOLATED)
+mem_i0/addr1[0]                         0.500000    0.599005   -0.099005 (VIOLATED)
+mem_i0/addr0[6]                         0.500000    0.578454   -0.078454 (VIOLATED)
+mem_i0/addr0[4]                         0.500000    0.561187   -0.061187 (VIOLATED)
+mem_i0/addr0[7]                         0.500000    0.552806   -0.052806 (VIOLATED)
+mem_i1/addr1[1]                         0.500000    0.545016   -0.045016 (VIOLATED)
+mem_i0/addr1[1]                         0.500000    0.543899   -0.043899 (VIOLATED)
+mem_i0/addr0[2]                         0.500000    0.543276   -0.043276 (VIOLATED)
+mem_i1/addr0[6]                         0.500000    0.536752   -0.036752 (VIOLATED)
+mem_i1/addr1[2]                         0.500000    0.531573   -0.031573 (VIOLATED)
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+clkbuf_2_3_0_clk/X                       10     21    -11 (VIOLATED)
+fanout108/X                              10     21    -11 (VIOLATED)
+clkbuf_2_1_0_clk/X                       10     17     -7 (VIOLATED)
+clkbuf_2_2_0_clk/X                       10     17     -7 (VIOLATED)
+fanout101/X                              10     15     -5 (VIOLATED)
+fanout109/X                              10     15     -5 (VIOLATED)
+clkbuf_2_0_0_clk/X                       10     13     -3 (VIOLATED)
+_134_/Q                                  10     11        (VIOLATED)
+load_slew102/X                           10     11        (VIOLATED)
+load_slew103/X                           10     11        (VIOLATED)
+
+max capacitance
+
+Pin                                        Limit         Cap       Slack
+------------------------------------------------------------------------
+mem_i0/dout1[1]                         0.027560    0.033803   -0.006243 (VIOLATED)
+mem_i0/dout1[0]                         0.027560    0.032979   -0.005419 (VIOLATED)
+mem_i1/dout1[15]                        0.027560    0.032263   -0.004703 (VIOLATED)
+mem_i0/dout1[3]                         0.027560    0.032014   -0.004454 (VIOLATED)
+mem_i0/dout1[2]                         0.027560    0.031315   -0.003755 (VIOLATED)
+mem_i0/dout1[8]                         0.027560    0.029976   -0.002416 (VIOLATED)
+mem_i1/dout1[10]                        0.027560    0.029139   -0.001579 (VIOLATED)
+mem_i1/dout1[9]                         0.027560    0.028944   -0.001384 (VIOLATED)
+mem_i0/dout1[4]                         0.027560    0.028486   -0.000926 (VIOLATED)
+mem_i1/dout1[8]                         0.027560    0.028454   -0.000894 (VIOLATED)
+mem_i1/dout1[7]                         0.027560    0.028367   -0.000807 (VIOLATED)
+mem_i1/dout1[6]                         0.027560    0.028010   -0.000450 (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 5 unannotated drivers.
+ clkload0/Y
+ clkload1/Y
+ clkload2/Y
+ mem_i0_110/HI
+ mem_i1_111/HI
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 18
+max fanout violation count 10
+max cap violation count 12
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 50 input ports missing set_input_delay.
+  addr00[0]
+  addr00[1]
+  addr00[2]
+  addr00[3]
+  addr00[4]
+  addr00[5]
+  addr00[6]
+  addr00[7]
+  addr01[0]
+  addr01[1]
+  addr01[2]
+  addr01[3]
+  addr01[4]
+  addr01[5]
+  addr01[6]
+  addr01[7]
+  csb00
+  csb01
+  din00[0]
+  din00[10]
+  din00[11]
+  din00[12]
+  din00[13]
+  din00[14]
+  din00[15]
+  din00[1]
+  din00[2]
+  din00[3]
+  din00[4]
+  din00[5]
+  din00[6]
+  din00[7]
+  din00[8]
+  din00[9]
+  din01[0]
+  din01[10]
+  din01[11]
+  din01[12]
+  din01[13]
+  din01[14]
+  din01[15]
+  din01[1]
+  din01[2]
+  din01[3]
+  din01[4]
+  din01[5]
+  din01[6]
+  din01[7]
+  din01[8]
+  din01[9]
+Warning: There are 52 unconstrained endpoints.
+  mem_i0/addr0[0]
+  mem_i0/addr0[1]
+  mem_i0/addr0[2]
+  mem_i0/addr0[3]
+  mem_i0/addr0[4]
+  mem_i0/addr0[5]
+  mem_i0/addr0[6]
+  mem_i0/addr0[7]
+  mem_i0/csb0
+  mem_i0/csb1
+  mem_i0/din0[0]
+  mem_i0/din0[10]
+  mem_i0/din0[11]
+  mem_i0/din0[12]
+  mem_i0/din0[13]
+  mem_i0/din0[14]
+  mem_i0/din0[15]
+  mem_i0/din0[1]
+  mem_i0/din0[2]
+  mem_i0/din0[3]
+  mem_i0/din0[4]
+  mem_i0/din0[5]
+  mem_i0/din0[6]
+  mem_i0/din0[7]
+  mem_i0/din0[8]
+  mem_i0/din0[9]
+  mem_i1/addr0[0]
+  mem_i1/addr0[1]
+  mem_i1/addr0[2]
+  mem_i1/addr0[3]
+  mem_i1/addr0[4]
+  mem_i1/addr0[5]
+  mem_i1/addr0[6]
+  mem_i1/addr0[7]
+  mem_i1/csb0
+  mem_i1/csb1
+  mem_i1/din0[0]
+  mem_i1/din0[10]
+  mem_i1/din0[11]
+  mem_i1/din0[12]
+  mem_i1/din0[13]
+  mem_i1/din0[14]
+  mem_i1/din0[15]
+  mem_i1/din0[1]
+  mem_i1/din0[2]
+  mem_i1/din0[3]
+  mem_i1/din0[4]
+  mem_i1/din0[5]
+  mem_i1/din0[6]
+  mem_i1/din0[7]
+  mem_i1/din0[8]
+  mem_i1/din0[9]

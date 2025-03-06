@@ -1,0 +1,236 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: rst (input port clocked by clk)
+Endpoint: _585_ (recovery check against rising-edge clock clk)
+Path Group: asynchronous
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock network delay (propagated)
+                                  2.550000    2.550000 v input external delay
+    25    0.159254    0.349095    0.262700    2.812700 v rst (in)
+                                                         rst (net)
+                      0.349819    0.000000    2.812700 v _560_/A (sky130_fd_sc_hd__inv_2)
+     1    0.006421    0.088603    0.139936    2.952636 ^ _560_/Y (sky130_fd_sc_hd__inv_2)
+                                                         _026_ (net)
+                      0.088603    0.000060    2.952696 ^ _585_/RESET_B (sky130_fd_sc_hd__dfrtp_2)
+                                              2.952696   data arrival time
+
+                                  5.100000    5.100000   clock clk (rise edge)
+                                  0.000000    5.100000   clock source latency
+    63    0.286814    1.286300    0.886529    5.986529 ^ clk (in)
+                                                         clk (net)
+                      1.289337    0.000000    5.986529 ^ _585_/CLK (sky130_fd_sc_hd__dfrtp_2)
+                                 -0.005100    5.981429   clock uncertainty
+                                  0.000000    5.981429   clock reconvergence pessimism
+                                  0.447332    6.428761   library recovery time
+                                              6.428761   data required time
+---------------------------------------------------------------------------------------------
+                                              6.428761   data required time
+                                             -2.952696   data arrival time
+---------------------------------------------------------------------------------------------
+                                              3.476066   slack (MET)
+
+
+Startpoint: _592_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: sine_out[8] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock source latency
+    63    0.286814    1.286300    0.909344    0.909344 ^ clk (in)
+                                                         clk (net)
+                      1.292792    0.000000    0.909344 ^ _592_/CLK (sky130_fd_sc_hd__dfrtp_2)
+     1    0.043539    0.213285    0.697744    1.607088 ^ _592_/Q (sky130_fd_sc_hd__dfrtp_2)
+                                                         sine_out[8] (net)
+                      0.213295    0.001706    1.608794 ^ sine_out[8] (out)
+                                              1.608794   data arrival time
+
+                                  5.100000    5.100000   clock clk (rise edge)
+                                  0.000000    5.100000   clock network delay (propagated)
+                                 -0.005100    5.094900   clock uncertainty
+                                  0.000000    5.094900   clock reconvergence pessimism
+                                 -2.295000    2.799900   output external delay
+                                              2.799900   data required time
+---------------------------------------------------------------------------------------------
+                                              2.799900   data required time
+                                             -1.608794   data arrival time
+---------------------------------------------------------------------------------------------
+                                              1.191106   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+max slew
+
+Pin                                        Limit        Slew       Slack
+------------------------------------------------------------------------
+mem_i1/clk1                             0.500000    1.725185   -1.225185 (VIOLATED)
+mem_i0/clk1                             0.500000    1.723892   -1.223892 (VIOLATED)
+mem_i1/clk0                             0.500000    1.719174   -1.219174 (VIOLATED)
+mem_i0/clk0                             0.500000    1.715138   -1.215138 (VIOLATED)
+_636_/CLK                               0.500000    1.293905   -0.793905 (VIOLATED)
+_638_/CLK                               0.500000    1.293685   -0.793685 (VIOLATED)
+_639_/CLK                               0.500000    1.293518   -0.793518 (VIOLATED)
+_640_/CLK                               0.500000    1.293446   -0.793446 (VIOLATED)
+_595_/CLK                               0.500000    1.293057   -0.793057 (VIOLATED)
+_597_/CLK                               0.500000    1.293051   -0.793051 (VIOLATED)
+_599_/CLK                               0.500000    1.293049   -0.793049 (VIOLATED)
+_598_/CLK                               0.500000    1.293046   -0.793046 (VIOLATED)
+_596_/CLK                               0.500000    1.293026   -0.793026 (VIOLATED)
+_601_/CLK                               0.500000    1.292942   -0.792942 (VIOLATED)
+_594_/CLK                               0.500000    1.292905   -0.792905 (VIOLATED)
+_603_/CLK                               0.500000    1.292881   -0.792881 (VIOLATED)
+_593_/CLK                               0.500000    1.292877   -0.792877 (VIOLATED)
+_604_/CLK                               0.500000    1.292877   -0.792877 (VIOLATED)
+_602_/CLK                               0.500000    1.292856   -0.792856 (VIOLATED)
+_607_/CLK                               0.500000    1.292817   -0.792817 (VIOLATED)
+_605_/CLK                               0.500000    1.292816   -0.792816 (VIOLATED)
+_606_/CLK                               0.500000    1.292814   -0.792814 (VIOLATED)
+_608_/CLK                               0.500000    1.292800   -0.792800 (VIOLATED)
+_592_/CLK                               0.500000    1.292792   -0.792792 (VIOLATED)
+_600_/CLK                               0.500000    1.292774   -0.792774 (VIOLATED)
+_591_/CLK                               0.500000    1.292772   -0.792772 (VIOLATED)
+_637_/CLK                               0.500000    1.292709   -0.792709 (VIOLATED)
+_642_/CLK                               0.500000    1.292628   -0.792628 (VIOLATED)
+_641_/CLK                               0.500000    1.292537   -0.792537 (VIOLATED)
+_622_/CLK                               0.500000    1.292474   -0.792474 (VIOLATED)
+_624_/CLK                               0.500000    1.292453   -0.792453 (VIOLATED)
+_623_/CLK                               0.500000    1.292386   -0.792386 (VIOLATED)
+_620_/CLK                               0.500000    1.292243   -0.792243 (VIOLATED)
+_621_/CLK                               0.500000    1.292193   -0.792193 (VIOLATED)
+_619_/CLK                               0.500000    1.291898   -0.791898 (VIOLATED)
+_618_/CLK                               0.500000    1.291825   -0.791825 (VIOLATED)
+_635_/CLK                               0.500000    1.291683   -0.791683 (VIOLATED)
+_617_/CLK                               0.500000    1.291681   -0.791681 (VIOLATED)
+_634_/CLK                               0.500000    1.291681   -0.791681 (VIOLATED)
+_633_/CLK                               0.500000    1.291677   -0.791677 (VIOLATED)
+_632_/CLK                               0.500000    1.291672   -0.791672 (VIOLATED)
+_616_/CLK                               0.500000    1.291556   -0.791556 (VIOLATED)
+_615_/CLK                               0.500000    1.290895   -0.790895 (VIOLATED)
+_614_/CLK                               0.500000    1.290796   -0.790796 (VIOLATED)
+_631_/CLK                               0.500000    1.290722   -0.790722 (VIOLATED)
+_630_/CLK                               0.500000    1.290721   -0.790721 (VIOLATED)
+_628_/CLK                               0.500000    1.290716   -0.790716 (VIOLATED)
+_612_/CLK                               0.500000    1.290646   -0.790646 (VIOLATED)
+_613_/CLK                               0.500000    1.290439   -0.790439 (VIOLATED)
+_611_/CLK                               0.500000    1.290372   -0.790372 (VIOLATED)
+_609_/CLK                               0.500000    1.290225   -0.790225 (VIOLATED)
+_610_/CLK                               0.500000    1.290174   -0.790174 (VIOLATED)
+_627_/CLK                               0.500000    1.289641   -0.789641 (VIOLATED)
+_590_/CLK                               0.500000    1.289594   -0.789594 (VIOLATED)
+_629_/CLK                               0.500000    1.289528   -0.789528 (VIOLATED)
+_589_/CLK                               0.500000    1.289527   -0.789527 (VIOLATED)
+_626_/CLK                               0.500000    1.289499   -0.789499 (VIOLATED)
+_587_/CLK                               0.500000    1.289495   -0.789495 (VIOLATED)
+_625_/CLK                               0.500000    1.289478   -0.789478 (VIOLATED)
+_588_/CLK                               0.500000    1.289352   -0.789352 (VIOLATED)
+_585_/CLK                               0.500000    1.289337   -0.789337 (VIOLATED)
+_586_/CLK                               0.500000    1.289320   -0.789320 (VIOLATED)
+_584_/CLK                               0.500000    1.289302   -0.789302 (VIOLATED)
+clk                                     0.500000    1.286300   -0.786300 (VIOLATED)
+_563_/A                                 0.500000    0.756333   -0.256333 (VIOLATED)
+_560_/A                                 0.500000    0.756332   -0.256332 (VIOLATED)
+_561_/A                                 0.500000    0.756330   -0.256330 (VIOLATED)
+_300_/A                                 0.500000    0.756326   -0.256326 (VIOLATED)
+_562_/A                                 0.500000    0.756319   -0.256319 (VIOLATED)
+_564_/A                                 0.500000    0.756318   -0.256318 (VIOLATED)
+_565_/A                                 0.500000    0.756313   -0.256313 (VIOLATED)
+_566_/A                                 0.500000    0.756100   -0.256100 (VIOLATED)
+_575_/A                                 0.500000    0.756096   -0.256096 (VIOLATED)
+_572_/A                                 0.500000    0.756094   -0.256094 (VIOLATED)
+_574_/A                                 0.500000    0.756093   -0.256093 (VIOLATED)
+_573_/A                                 0.500000    0.756092   -0.256092 (VIOLATED)
+_569_/A                                 0.500000    0.756089   -0.256089 (VIOLATED)
+_570_/A                                 0.500000    0.756087   -0.256087 (VIOLATED)
+_571_/A                                 0.500000    0.756086   -0.256086 (VIOLATED)
+_576_/A                                 0.500000    0.756083   -0.256083 (VIOLATED)
+_568_/A                                 0.500000    0.756079   -0.256079 (VIOLATED)
+_583_/A                                 0.500000    0.756069   -0.256069 (VIOLATED)
+_567_/A                                 0.500000    0.756069   -0.256068 (VIOLATED)
+_577_/A                                 0.500000    0.756069   -0.256069 (VIOLATED)
+_582_/A                                 0.500000    0.756044   -0.256044 (VIOLATED)
+_580_/A                                 0.500000    0.756044   -0.256044 (VIOLATED)
+_581_/A                                 0.500000    0.756042   -0.256042 (VIOLATED)
+_579_/A                                 0.500000    0.756038   -0.256038 (VIOLATED)
+_578_/A                                 0.500000    0.756031   -0.256031 (VIOLATED)
+rst                                     0.500000    0.755949   -0.255949 (VIOLATED)
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+clk                                      10     63    -53 (VIOLATED)
+rst                                      10     25    -15 (VIOLATED)
+num[3]                                   10     24    -14 (VIOLATED)
+num[1]                                   10     19     -9 (VIOLATED)
+num[2]                                   10     19     -9 (VIOLATED)
+_641_/Q                                  10     16     -6 (VIOLATED)
+_440_/X                                  10     13     -3 (VIOLATED)
+num[0]                                   10     12     -2 (VIOLATED)
+_600_/Q                                  10     11        (VIOLATED)
+
+max capacitance
+
+Pin                                        Limit         Cap       Slack
+------------------------------------------------------------------------
+clk                                     0.200000    0.286814   -0.086814 (VIOLATED)
+mem_i1/dout1[12]                        0.027560    0.031464   -0.003904 (VIOLATED)
+mem_i1/dout1[2]                         0.027560    0.029621   -0.002061 (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 2 unannotated drivers.
+ _643_/HI
+ _644_/HI
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 90
+Writing metric design__max_slew_violation__count__corner:nom_tt_025C_1v80: 90
+max fanout violation count 9
+Writing metric design__max_fanout_violation__count__corner:nom_tt_025C_1v80: 9
+max cap violation count 3
+Writing metric design__max_cap_violation__count__corner:nom_tt_025C_1v80: 3
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 8 input ports missing set_input_delay.
+  denum[0]
+  denum[1]
+  denum[2]
+  denum[3]
+  num[0]
+  num[1]
+  num[2]
+  num[3]
+Warning: There are 2 unconstrained endpoints.
+  mem_i0/csb1
+  mem_i1/csb1

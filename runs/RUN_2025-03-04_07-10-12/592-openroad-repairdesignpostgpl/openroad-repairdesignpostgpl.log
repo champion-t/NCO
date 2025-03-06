@@ -1,0 +1,65 @@
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/home/thanh/NCO/ram256x16/ram256x16_TT_1p8V_25C.lib'…
+Reading OpenROAD database at '/home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/588-openroad-globalplacement/counter.odb'…
+Reading design constraints file at '/home/thanh/NCO/counter.sdc'…
+[INFO] Setting RC values…
+[INFO RSZ-0027] Inserted 26 input buffers.
+[INFO RSZ-0028] Inserted 16 output buffers.
+[INFO RSZ-0058] Using max wire length 6352um.
+Iteration | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------
+        0 |       0 |       0 |             0 |       150
+       10 |       9 |       0 |             0 |       140
+       20 |      17 |       0 |             0 |       130
+       30 |      27 |       0 |             0 |       120
+       40 |      29 |       0 |             0 |       110
+       50 |      31 |       0 |             0 |       100
+       60 |      37 |       0 |             0 |        90
+       70 |      47 |       0 |             0 |        80
+       80 |      49 |       0 |             0 |        70
+       90 |      49 |       0 |             0 |        60
+      100 |      53 |       0 |             0 |        50
+      110 |      66 |       3 |             1 |        40
+      120 |      76 |       3 |             1 |        30
+      130 |      78 |       3 |             1 |        20
+      140 |      78 |       3 |             1 |        10
+      150 |      78 |       3 |             1 |         0
+    final |      78 |       3 |             1 |         0
+---------------------------------------------------------
+[INFO RSZ-0035] Found 1 fanout violations.
+[INFO RSZ-0038] Inserted 3 buffers in 1 nets.
+[INFO RSZ-0039] Resized 78 instances.
+[INFO RSZ-0042] Inserted 1 tie sky130_fd_sc_hd__conb_1 instances.
+Placement Analysis
+---------------------------------
+total displacement        610.6 u
+average displacement        0.5 u
+max displacement           53.8 u
+original HPWL            5596.8 u
+legalized HPWL           5662.0 u
+delta HPWL                    1 %
+
+[INFO DPL-0020] Mirrored 45 instances
+[INFO DPL-0021] HPWL before            5662.0 u
+[INFO DPL-0022] HPWL after             5594.0 u
+[INFO DPL-0023] HPWL delta               -1.2 %
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+mem_i matched with mem_i
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                     1  123515.34
+  Fill cell                               470    1764.19
+  Tap cell                                739     924.64
+  Timing Repair Buffer                     45     183.93
+  Inverter                                 25      93.84
+  Sequential cell                          24     620.60
+  Multi-Input combinational cell           15      96.34
+  Total                                  1319  127198.88
+Writing OpenROAD database to '/home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/592-openroad-repairdesignpostgpl/counter.odb'…
+Writing netlist to '/home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/592-openroad-repairdesignpostgpl/counter.nl.v'…
+Writing powered netlist to '/home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/592-openroad-repairdesignpostgpl/counter.pnl.v'…
+Writing layout to '/home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/592-openroad-repairdesignpostgpl/counter.def'…
+Writing timing constraints to '/home/thanh/NCO/runs/RUN_2025-03-04_07-10-12/592-openroad-repairdesignpostgpl/counter.sdc'…

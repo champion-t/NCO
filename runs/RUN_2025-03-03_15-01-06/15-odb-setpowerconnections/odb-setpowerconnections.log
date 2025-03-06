@@ -1,0 +1,2 @@
+[WARNING ORD-0039] .openroad ignored with -python
+[ERROR] Could not find master for cell type 'ram256x16' in the database.

@@ -1,0 +1,280 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_ff_n40C_1v95 Corner ===================================
+
+Startpoint: rst (input port clocked by clk)
+Endpoint: _089_ (recovery check against rising-edge clock clk)
+Path Group: asynchronous
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock network delay (propagated)
+                                  2.500000    2.500000 v input external delay
+    24    0.102840    0.153165    0.114094    2.614094 v rst (in)
+                                                         rst (net)
+                      0.153165    0.000000    2.614094 v _065_/A (sky130_fd_sc_hd__inv_2)
+     1    0.018487    0.081386    0.112688    2.726782 ^ _065_/Y (sky130_fd_sc_hd__inv_2)
+                                                         _018_ (net)
+                      0.081437    0.001600    2.728382 ^ _089_/RESET_B (sky130_fd_sc_hd__dfrtp_2)
+                                              2.728382   data arrival time
+
+                                  5.000000    5.000000   clock clk (rise edge)
+                                  0.000000    5.000000   clock source latency
+    26    0.061220    0.208309    0.135349    5.135349 ^ clk (in)
+                                                         clk (net)
+                      0.208309    0.000000    5.135349 ^ _089_/CLK (sky130_fd_sc_hd__dfrtp_2)
+                                 -0.250000    4.885349   clock uncertainty
+                                  0.000000    4.885349   clock reconvergence pessimism
+                                  0.148127    5.033476   library recovery time
+                                              5.033476   data required time
+---------------------------------------------------------------------------------------------
+                                              5.033476   data required time
+                                             -2.728382   data arrival time
+---------------------------------------------------------------------------------------------
+                                              2.305094   slack (MET)
+
+
+Startpoint: _097_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: sine_out[0] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock source latency
+    26    0.061220    0.208309    0.135349    0.135349 ^ clk (in)
+                                                         clk (net)
+                      0.208309    0.000000    0.135349 ^ _097_/CLK (sky130_fd_sc_hd__dfrtp_2)
+     1    0.033400    0.078205    0.332692    0.468041 v _097_/Q (sky130_fd_sc_hd__dfrtp_2)
+                                                         sine_out[0] (net)
+                      0.078205    0.000000    0.468041 v sine_out[0] (out)
+                                              0.468041   data arrival time
+
+                                  5.000000    5.000000   clock clk (rise edge)
+                                  0.000000    5.000000   clock network delay (propagated)
+                                 -0.250000    4.750000   clock uncertainty
+                                  0.000000    4.750000   clock reconvergence pessimism
+                                 -2.500000    2.250000   output external delay
+                                              2.250000   data required time
+---------------------------------------------------------------------------------------------
+                                              2.250000   data required time
+                                             -0.468041   data arrival time
+---------------------------------------------------------------------------------------------
+                                              1.781959   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_ff_n40C_1v95 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_ff_n40C_1v95 Corner ===================================
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+clk                                      10     26    -16 (VIOLATED)
+rst                                      10     24    -14 (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 2 unannotated drivers.
+ _103_/HI
+ _103_/LO
+Found 50 partially unannotated drivers.
+ addr0[0]
+  mem_i/addr0[7]
+ addr0[1]
+  mem_i/addr0[6]
+ addr0[2]
+  mem_i/addr0[5]
+ addr0[3]
+  mem_i/addr0[4]
+ addr0[4]
+  mem_i/addr0[3]
+ addr0[5]
+  mem_i/addr0[2]
+ addr0[6]
+  mem_i/addr0[1]
+ addr0[7]
+  mem_i/addr0[0]
+ clk
+  _079_/CLK
+  _080_/CLK
+  _081_/CLK
+  _082_/CLK
+  _083_/CLK
+  _084_/CLK
+  _085_/CLK
+  _086_/CLK
+  _087_/CLK
+  _088_/CLK
+  _089_/CLK
+  _090_/CLK
+  _091_/CLK
+  _092_/CLK
+  _093_/CLK
+  _094_/CLK
+  _095_/CLK
+  _096_/CLK
+  _097_/CLK
+  _098_/CLK
+  _099_/CLK
+  _100_/CLK
+  _101_/CLK
+  _102_/CLK
+  mem_i/clk0
+  mem_i/clk1
+ din0[0]
+  mem_i/din0[15]
+ din0[10]
+  mem_i/din0[5]
+ din0[11]
+  mem_i/din0[4]
+ din0[12]
+  mem_i/din0[3]
+ din0[13]
+  mem_i/din0[2]
+ din0[14]
+  mem_i/din0[1]
+ din0[15]
+  mem_i/din0[0]
+ din0[1]
+  mem_i/din0[14]
+ din0[2]
+  mem_i/din0[13]
+ din0[3]
+  mem_i/din0[12]
+ din0[4]
+  mem_i/din0[11]
+ din0[5]
+  mem_i/din0[10]
+ din0[6]
+  mem_i/din0[9]
+ din0[7]
+  mem_i/din0[8]
+ din0[8]
+  mem_i/din0[7]
+ din0[9]
+  mem_i/din0[6]
+ rst
+  _041_/A
+  _056_/A
+  _057_/A
+  _058_/A
+  _059_/A
+  _060_/A
+  _061_/A
+  _062_/A
+  _063_/A
+  _064_/A
+  _065_/A
+  _066_/A
+  _067_/A
+  _068_/A
+  _069_/A
+  _070_/A
+  _071_/A
+  _072_/A
+  _073_/A
+  _074_/A
+  _075_/A
+  _076_/A
+  _077_/A
+  _078_/A
+ _079_/Q
+  sine_out[6]
+ _080_/Q
+  sine_out[7]
+ _081_/Q
+  sine_out[8]
+ _082_/Q
+  sine_out[9]
+ _083_/Q
+  sine_out[10]
+ _084_/Q
+  sine_out[11]
+ _085_/Q
+  sine_out[12]
+ _086_/Q
+  sine_out[13]
+ _087_/Q
+  sine_out[14]
+ _088_/Q
+  sine_out[15]
+ _089_/Q
+  _040_/A
+  mem_i/addr1[7]
+ _090_/Q
+  mem_i/addr1[6]
+ _091_/Q
+  mem_i/addr1[5]
+ _092_/Q
+  _047_/A
+  mem_i/addr1[4]
+ _093_/Q
+  _049_/A
+  mem_i/addr1[3]
+ _094_/Q
+  mem_i/addr1[2]
+ _095_/Q
+  mem_i/addr1[1]
+ _096_/Q
+  _055_/A
+  mem_i/addr1[0]
+ _097_/Q
+  sine_out[0]
+ _098_/Q
+  sine_out[1]
+ _099_/Q
+  sine_out[2]
+ _100_/Q
+  sine_out[3]
+ _101_/Q
+  sine_out[4]
+ _102_/Q
+  sine_out[5]
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 2
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 16 unconstrained endpoints.
+  _079_/D
+  _080_/D
+  _081_/D
+  _082_/D
+  _083_/D
+  _084_/D
+  _085_/D
+  _086_/D
+  _087_/D
+  _088_/D
+  _097_/D
+  _098_/D
+  _099_/D
+  _100_/D
+  _101_/D
+  _102_/D
