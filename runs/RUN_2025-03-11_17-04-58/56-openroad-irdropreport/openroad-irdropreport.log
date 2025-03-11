@@ -1,0 +1,71 @@
+Reading OpenROAD database at '/home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/53-odb-cellfrequencytables/counter.odb'…
+Reading library file at '/home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading library file at '/home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib'…
+Reading macro library file at '/home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib'…
+[WARNING STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+Reading design constraints file at '/home/thanh/NCO/counter.sdc'…
+[INFO] Setting RC values…
+[WARNING STA-1648] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 18640, instance ANTENNA_mem_i_addr1\[0\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 18646, net ANTENNA_mem_i_addr1\[0\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 18661, net ANTENNA_mem_i_addr1\[0\] not found.
+[WARNING STA-1648] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21843, instance ANTENNA_mem_i_addr1\[7\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21849, net ANTENNA_mem_i_addr1\[7\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21857, net ANTENNA_mem_i_addr1\[7\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21857, net ANTENNA_mem_i_addr1\[4\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21858, net ANTENNA_mem_i_addr1\[7\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21858, net ANTENNA_mem_i_addr1\[6\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21859, net ANTENNA_mem_i_addr1\[7\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21860, net ANTENNA_mem_i_addr1\[7\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21874, net ANTENNA_mem_i_addr1\[7\] not found.
+[WARNING STA-1648] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21924, instance ANTENNA_mem_i_addr1\[6\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21930, net ANTENNA_mem_i_addr1\[6\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21937, net ANTENNA_mem_i_addr1\[6\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21937, net ANTENNA_mem_i_addr1\[4\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21938, net ANTENNA_mem_i_addr1\[6\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21938, net ANTENNA_mem_i_addr1\[5\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21945, net ANTENNA_mem_i_addr1\[4\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21946, net ANTENNA_mem_i_addr1\[5\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21948, net ANTENNA_mem_i_addr1\[7\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21948, net ANTENNA_mem_i_addr1\[6\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21949, net ANTENNA_mem_i_addr1\[7\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21957, net ANTENNA_mem_i_addr1\[6\] not found.
+[WARNING STA-1648] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22015, instance ANTENNA_mem_i_addr1\[5\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22021, net ANTENNA_mem_i_addr1\[5\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22033, net ANTENNA_mem_i_addr1\[6\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22033, net ANTENNA_mem_i_addr1\[5\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22039, net ANTENNA_mem_i_addr1\[5\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22048, net ANTENNA_mem_i_addr1\[5\] not found.
+[WARNING STA-1648] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22111, instance ANTENNA_mem_i_addr1\[4\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22117, net ANTENNA_mem_i_addr1\[4\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22125, net ANTENNA_mem_i_addr1\[6\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22125, net ANTENNA_mem_i_addr1\[4\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22126, net ANTENNA_mem_i_addr1\[7\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22126, net ANTENNA_mem_i_addr1\[4\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22127, net ANTENNA_mem_i_addr1\[7\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22153, net ANTENNA_mem_i_addr1\[4\] not found.
+[WARNING STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22165, net ANTENNA_mem_i_addr1\[4\] not found.
+[INFO] Using voltage extracted from lib (1.8000000000V) for power nets and 0V for ground nets…
+%OL_CREATE_REPORT irdrop.rpt
+[INFO PSM-0040] All shapes on net vccd1 are connected.
+########## IR report #################
+Net              : vccd1
+Corner           : nom_tt_025C_1v80
+Supply voltage   : 1.80e+00 V
+Worstcase voltage: 1.80e+00 V
+Average voltage  : 1.80e+00 V
+Average IR drop  : 3.42e-05 V
+Worstcase IR drop: 2.59e-03 V
+Percentage drop  : 0.14 %
+######################################
+[INFO PSM-0040] All shapes on net vssd1 are connected.
+########## IR report #################
+Net              : vssd1
+Corner           : nom_tt_025C_1v80
+Supply voltage   : 0.00e+00 V
+Worstcase voltage: 2.57e-03 V
+Average voltage  : 3.96e-05 V
+Average IR drop  : 3.96e-05 V
+Worstcase IR drop: 2.57e-03 V
+Percentage drop  : 0.14 %
+######################################
+%OL_END_REPORT

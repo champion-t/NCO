@@ -1,0 +1,93 @@
+21 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+Cell 'sky130_sram_1kbyte_1rw1r_32x256_8' has (57) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'sky130_sram_1kbyte_1rw1r_32x256_8' has (64) output pin(s) without antenna diffusion information. They might not be driven.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+'GPL_CELL_PADDING' is set to 0. This step may cause overlap failures.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+'VSRC_LOC_FILES' was not given a value, which may make the results of IR drop analysis inaccurate. If you are not integrating a top-level chip for manufacture, you may ignore this warning, otherwise, see the documentation for 'VSRC_LOC_FILES'.
+[STA-1140] /home/thanh/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 18640, instance ANTENNA_mem_i_addr1\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 18646, net ANTENNA_mem_i_addr1\[0\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 18661, net ANTENNA_mem_i_addr1\[0\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21843, instance ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21849, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21857, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21857, net ANTENNA_mem_i_addr1\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21858, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21858, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21859, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21860, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21874, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21924, instance ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21930, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21937, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21937, net ANTENNA_mem_i_addr1\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21938, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21938, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21945, net ANTENNA_mem_i_addr1\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21946, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21948, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21948, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21949, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 21957, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22015, instance ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22021, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22033, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22033, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22039, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22048, net ANTENNA_mem_i_addr1\[5\] not found.
+[STA-1648] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22111, instance ANTENNA_mem_i_addr1\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22117, net ANTENNA_mem_i_addr1\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22125, net ANTENNA_mem_i_addr1\[6\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22125, net ANTENNA_mem_i_addr1\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22126, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22126, net ANTENNA_mem_i_addr1\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22127, net ANTENNA_mem_i_addr1\[7\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22153, net ANTENNA_mem_i_addr1\[4\] not found.
+[STA-1650] /home/thanh/NCO/runs/RUN_2025-03-11_17-04-58/54-openroad-rcx/nom/counter.nom.spef line 22165, net ANTENNA_mem_i_addr1\[4\] not found.
+Cell 'counter' has (9) input pin(s) without antenna gate information. They might not be connected to a gate.
+Setup violations found in the following corners:
+* max_ss_100C_1v60
+* nom_ss_100C_1v60
+Max Slew violations found in the following corners:
+* max_ss_100C_1v60
+* min_ss_100C_1v60
+* nom_ss_100C_1v60
+* nom_tt_025C_1v80
+klayout__drc_error__count not reported. KLayout.DRC may have been skipped.
+magic__drc_error__count not reported. Magic.DRC may have been skipped.
