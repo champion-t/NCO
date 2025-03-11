@@ -1,0 +1,13 @@
+- cell: counter
+  inout: []
+  input:
+  - addr01[0]
+  - addr01[1]
+  - addr01[2]
+  - addr01[3]
+  - addr01[4]
+  - addr01[5]
+  - addr01[6]
+  - addr01[7]
+  - csb01
+  output: []
